@@ -1,0 +1,24 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <h3>Hello, There! I'm Priyasha Prasad.</h3>
+        <p>
+            I enjoy learning, writing, teaching and reading. </p>
+        <hr>
+
+        <img id="profile" src="{% static 'mysite/images/photo.jpg' %}" width="300" height="300" alt="">
+        <hr>
+        <p>
+            I'm an Information Technology Professional with 3 years of Technology Consulting experience,
+            working in projects from Healthcare, Insurance and Banking domains at Deloitte Consulting.
+            I hold a Bachelor’s degree in Electrical and Electronics Engineering and
+            I'm currently doing my Masters in Business Analytics.
+        </p>
+        <p>
+            I am passionate about yoga, art & crafts,
+            enjoy making DIY projects, practising doodle art and sewing basic patterns.
+        </p>
+    </div>
+{% endblock %}
